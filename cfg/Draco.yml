@@ -1,0 +1,308 @@
+pcc_directory: /media/mb/mb/pcc_assessment/pcc_algorithms/draco-1.4.1
+encoder: build/draco_encoder
+decoder: build/draco_decoder
+bin_extension: .drc
+
+params:
+# Lossless
+#  - id: r0
+#    qp: 0
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 0
+
+# Lossy
+  - id: r1
+    qp: 7
+    qt: -1
+    qn: -1
+    qg: -1
+    cl: 7
+
+  - id: r2
+    qp: 1
+    qt: -1
+    qn: -1
+    qg: -1
+    cl: 2
+
+#  - id: r3
+#    qp: 1
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 3
+#
+#  - id: r4
+#    qp: 1
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 4
+#
+#  - id: r5
+#    qp: 1
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 5
+#
+#  - id: r6
+#    qp: 1
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 6
+#
+#  - id: r7
+#    qp: 1
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 7
+#
+#  - id: r8
+#    qp: 2
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 1
+#
+#  - id: r9
+#    qp: 2
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 2
+#
+#  - id: r10
+#    qp: 2
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 3
+#
+#  - id: r11
+#    qp: 2
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 4
+#
+#  - id: r12
+#    qp: 2
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 5
+#
+#  - id: r13
+#    qp: 2
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 6
+#
+#  - id: r14
+#    qp: 2
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 7
+#
+#  - id: r15
+#    qp: 3
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 1
+#
+#  - id: r16
+#    qp: 3
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 2
+#
+#  - id: r17
+#    qp: 3
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 3
+#
+#  - id: r18
+#    qp: 3
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 4
+#
+#  - id: r19
+#    qp: 3
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 5
+#
+#  - id: r20
+#    qp: 3
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 6
+#
+#  - id: r21
+#    qp: 3
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 7
+#
+#  - id: r22
+#    qp: 4
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 1
+#
+#  - id: r23
+#    qp: 4
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 2
+#
+#  - id: r24
+#    qp: 4
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 3
+#
+#  - id: r25
+#    qp: 4
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 4
+#
+#  - id: r26
+#    qp: 4
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 5
+#
+#  - id: r27
+#    qp: 4
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 6
+#
+#  - id: r28
+#    qp: 4
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 7
+#
+#  - id: r29
+#    qp: 5
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 1
+#
+#  - id: r30
+#    qp: 5
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 2
+#
+#  - id: r31
+#    qp: 5
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 3
+#
+#  - id: r32
+#    qp: 5
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 4
+#
+#  - id: r33
+#    qp: 5
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 5
+#
+#  - id: r34
+#    qp: 5
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 6
+#
+#  - id: r35
+#    qp: 5
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 7
+#
+#  - id: r36
+#    qp: 6
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 1
+#
+#  - id: r37
+#    qp: 6
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 2
+#
+#  - id: r38
+#    qp: 6
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 3
+#
+#  - id: r39
+#    qp: 6
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 4
+#
+#  - id: r40
+#    qp: 6
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 5
+#
+#  - id: r41
+#    qp: 6
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 6
+#
+#  - id: r42
+#    qp: 6
+#    qt: -1
+#    qn: -1
+#    qg: -1
+#    cl: 7

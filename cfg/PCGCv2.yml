@@ -1,0 +1,11 @@
+pcc_directory: /media/mb18/mb/pcc_comparison/pcc_methods/PCGCv2
+coder: coder.py
+bin_extension: /
+
+
+params:
+  - id: r0
+    ckptdir: ckpts/r3_0.10bpp.pth
+    res: 2048
+    scaling_factor: 1.0 # default
+    rho: 1.0 # default

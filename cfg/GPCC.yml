@@ -1,0 +1,94 @@
+pcc_directory: /media/mb18/mb/pcc_comparison/pcc_methods/mpeg-pcc-tmc13-release-v12.0/
+encoder: ./build/tmc3/tmc3
+decoder: ./build/tmc3/tmc3
+bin_extension: .bin
+
+params:
+# Lossless
+#  - id: r0
+#    positionQuantizationScale: 1
+#    mergeDuplicatedPoints: 0
+#    transformType: 0
+#    colourMatrix: 8
+#    convertPlyColourspace: 1
+#    qp: 4
+#    qpChromaOffset: 0
+
+# Lossy
+#- id: r2
+#  positionQuantizationScale: 0.09
+#  mergeDuplicatedPoints: 1
+#
+#- id: r3
+#  positionQuantizationScale: 0.12
+#  mergeDuplicatedPoints: 1
+#
+#- id: r5
+#  positionQuantizationScale: 0.23
+#  mergeDuplicatedPoints: 1
+
+#Lossy G-PCC 8iVFB
+#- id: r1
+#  positionQuantizationScale: 0.08
+#  mergeDuplicatedPoints: 1
+#
+#- id: r2
+#  positionQuantizationScale: 0.11
+#  mergeDuplicatedPoints: 1
+#
+#- id: r3
+#  positionQuantizationScale: 0.14
+#  mergeDuplicatedPoints: 1
+#
+#- id: r4
+#  positionQuantizationScale: 0.19
+#  mergeDuplicatedPoints: 1
+#
+#- id: r5
+#  positionQuantizationScale: 0.25
+#  mergeDuplicatedPoints: 1
+
+#Lossy G-PCC MVUB HIGH BITRATE
+#- id: r1
+#  positionQuantizationScale: 0.375
+#  mergeDuplicatedPoints: 1
+#
+#- id: r2
+#  positionQuantizationScale: 0.5
+#  mergeDuplicatedPoints: 1
+#
+#- id: r3
+#  positionQuantizationScale: 0.625
+#  mergeDuplicatedPoints: 1
+#
+#- id: r4
+#  positionQuantizationScale: 0.75
+#  mergeDuplicatedPoints: 1
+#
+#- id: r5
+#  positionQuantizationScale: 0.875
+#  mergeDuplicatedPoints: 1
+
+#- id: r6
+#  positionQuantizationScale: 0.3
+#  mergeDuplicatedPoints: 1
+#
+#- id: r7
+#  positionQuantizationScale: 0.4
+#  mergeDuplicatedPoints: 1
+#
+#- id: r8
+#  positionQuantizationScale: 0.6
+#  mergeDuplicatedPoints: 1
+#
+#- id: r9
+#  positionQuantizationScale: 0.7
+#  mergeDuplicatedPoints: 1
+#
+#- id: r10
+#  positionQuantizationScale: 0.8
+#  mergeDuplicatedPoints: 1
+#
+- id: r1_0.25
+  positionQuantizationScale: 0.25
+  mergeDuplicatedPoints: 1

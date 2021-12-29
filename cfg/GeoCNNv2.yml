@@ -1,0 +1,19 @@
+pcc_directory: /media/mb18/mb/pcc_comparison/pcc_methods/pcc_geo_cnn_v2
+encoder: ./src/compress_octree.py
+decoder: ./src/decompress_octree.py
+bin_extension: .bin
+opt_metrics: d1_mse
+
+
+params:
+  - id: r0
+    checkpoint_dir: /media/mb18/mb/pcc_lidar/pcc_dir/pcc_geo_cnn_v2/models/c3p/3.00e-04
+    model_config: c3p
+    resolution: 16384
+    octree_level: 4
+
+#  - id: r1
+#    checkpoint_dir: /media/mb18/mb/pcc_lidar/pcc_dir/pcc_geo_cnn_v2/models/c3p/3.00e-04
+#    model_config: c3p
+#    resolution: 2048
+#    octree_level: 4

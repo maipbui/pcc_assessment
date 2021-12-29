@@ -1,0 +1,23 @@
+pcc_directory: /media/mb18/mb/pcc_lidar/pcc_methods/PCGCv1
+coder: test.py
+bin_extension: /
+
+
+params:
+  - id: r0
+    mode: hyper
+    modelname: models.model_voxception
+    ckpt_dir: /media/mb18/mb/pcc_lidar/pcc_dir/PCGCv1/checkpoints/hyper/a2b3
+    scale: 1.0 # default
+    cube_size: 64 # default
+    min_num: 64 # default
+    rho: 1.0 # default
+
+#  - id: r1
+#    mode:
+#    modelname:
+#    ckpt_dir:
+#    scale: 1.0 # default
+#    cube_size: 64 # default
+#    min_num: 64 # default
+#    rho: 1.0 # default

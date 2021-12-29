@@ -1,0 +1,100 @@
+pcc_directory: /media/mb18/mb/pcc_comparison/pcc_methods/mpeg-pcc-tmc2-release-v12.0/
+encoder: bin/PccAppEncoder
+decoder: bin/PccAppDecoder
+bin_extension: .bin
+cfg_folder: cfg/
+vid_encoder: bin/PccAppVideoEncoder
+vid_decoder: bin/PccAppVideoDecoder
+cfg_inverse_color_space_conversion: cfg/hdrconvert/yuv420torgb444.cfg
+
+# C2AI (Near-lossless | Lossy Geometry – Lossy Attributes)
+#cfg_common: cfg/common/ctc-common.cfg
+#cfg_condition: cfg/condition/ctc-all-intra.cfg
+
+# CWAI (Lossless Geometry – Lossless Attributes), use with r06
+cfg_common: cfg/common/ctc-common-lossless-geometry-texture.cfg
+cfg_condition: cfg/condition/ctc-all-intra-lossless-geometry-texture.cfg
+
+params:
+#  - id:  r1
+#    rate_cfg: cfg/rate/ctc-r1.cfg
+#
+#  - id:  r2
+#    rate_cfg: cfg/rate/ctc-r2.cfg
+#
+#  - id:  r3
+#    rate_cfg: cfg/rate/ctc-r3.cfg
+#
+#  - id:  r4
+#    rate_cfg: cfg/rate/ctc-r4.cfg
+#
+#  - id:  r5
+#    rate_cfg: cfg/rate/ctc-r5.cfg
+#
+  - id:  r6
+    rate_cfg: cfg/rate/ctc-r5-lossless.cfg
+
+#  - id: r_g14_t20_o4
+#    geometryQP: 14
+#    textureQP: 20
+#    occupancyPrecision: 4
+#
+#  - id: r_g12_t18_o4
+#    geometryQP: 12
+#    textureQP: 18
+#    occupancyPrecision: 4
+#
+#  - id: r_g10_t16_o4
+#    geometryQP: 10
+#    textureQP: 16
+#    occupancyPrecision: 4
+#
+#  - id: r_g10_t14_o4
+#    geometryQP: 10
+#    textureQP: 14
+#    occupancyPrecision: 4
+#
+#  - id: r_g10_t12_o4
+#    geometryQP: 10
+#    textureQP: 12
+#    occupancyPrecision: 4
+#
+#  - id: r_g10_t10_o4
+#    geometryQP: 10
+#    textureQP: 10
+#    occupancyPrecision: 4
+#
+#  - id: r_g8_t8_o4
+#    geometryQP: 8
+#    textureQP: 8
+#    occupancyPrecision: 4
+#
+#  - id: r_g6_t6_o4
+#    geometryQP: 6
+#    textureQP: 6
+#    occupancyPrecision: 4
+#
+#  - id: r_g2_t2_o4
+#    geometryQP: 2
+#    textureQP: 2
+#    occupancyPrecision: 4
+#
+#  - id: r_g5_t5_o4
+#    geometryQP: 5
+#    textureQP: 5
+#    occupancyPrecision: 4
+#
+#  - id: r_g3_t3_o4
+#    geometryQP: 3
+#    textureQP: 3
+#    occupancyPrecision: 4
+#
+#  - id: r_g1_t1_o4
+#    geometryQP: 1
+#    textureQP: 1
+#    occupancyPrecision: 4
+#
+#  - id: r_g4_t4_o4
+#    geometryQP: 4
+#    textureQP: 4
+#    occupancyPrecision: 4
