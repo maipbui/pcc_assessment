@@ -1,7 +1,7 @@
 # PCC Assessment: Point Cloud Compression Assessment
-### Tested Environment
+## Tested Environment
 Ubuntu 20.04.3 LTS
-### Requirements
+## Requirements
 ### Installation
 0. Install basic prerequisites:
 ```shell
@@ -26,3 +26,5 @@ conda env create -f env/{PCC_name}.yml
 conda activate {PCC_name}
 ```
 
+## Acknowledgement
+Thank you and credits to [xtorker](https://github.com/xtorker/PCCArena) for part of the easy-to-use Anaconda environment configs `env`
